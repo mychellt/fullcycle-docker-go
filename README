@@ -29,7 +29,7 @@ Substitua `USER` pelo seu nome de usuário do Docker Hub ou um nome de sua escol
 3. Depois de construir a imagem, você pode executá-la com o seguinte comando:
 
 <code>
-docker run seu-usuario/fullcycle-go
+docker run USER/fullcycle-go
 </code>
 
 Isso exibirá a mensagem "Full Cycle Rocks!!" no terminal.
