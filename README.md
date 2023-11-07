@@ -42,7 +42,8 @@ Isso exibirá a mensagem "Full Cycle Rocks!!" no terminal.
 
 - A imagem final é projetada para ser menor que 2MB, mantendo-a leve e eficiente.
 
-- Para realizar o pull da imagem do docker hub, utiliza-se o comando:
+- A imagem gerada encontra-se no seguinte link: <link> https://hub.docker.com/repository/docker/mychellt/fullcycle-docker-go/general. </link>
+Para realizar o pull da imagem do docker hub, utiliza-se o comando:
 
 <code>
 docker pull mychellt/fullcycle-docker-go:latest
