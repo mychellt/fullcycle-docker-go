@@ -10,27 +10,27 @@ Este é um projeto simples que demonstra como criar uma imagem Docker para um ap
 
 1. Clone este repositório em seu sistema:
 
-<code lang=javascript> 
+```shell
 git clone https://github.com/mychellt/fullcycle-docker-go.git
 
 cd fullcycle-docker-go
-</code>
+```
 
 
 2. Construa a imagem Docker executando o seguinte comando no diretório do projeto:
 
-<code>
+```shell
 docker build -t USER/fullcycle-docker-go .
-</code>
+```
 
 
 Substitua `USER` pelo seu nome de usuário do Docker Hub ou um nome de sua escolha.
 
 3. Depois de construir a imagem, você pode executá-la com o seguinte comando:
 
-<code>
+```shell
 docker run USER/fullcycle-go
-</code>
+```
 
 Isso exibirá a mensagem "Full Cycle Rocks!!" no terminal.
 
@@ -45,9 +45,9 @@ Isso exibirá a mensagem "Full Cycle Rocks!!" no terminal.
 - A imagem gerada encontra-se no seguinte link: <link> https://hub.docker.com/repository/docker/mychellt/fullcycle-docker-go/general. </link>
 Para realizar o pull da imagem do docker hub, utiliza-se o comando:
 
-<code>
+```shell
 docker pull mychellt/fullcycle-docker-go:latest
-</code>
+```
 
 
 
